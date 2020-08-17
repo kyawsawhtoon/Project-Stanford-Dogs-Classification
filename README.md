@@ -10,9 +10,13 @@ As a pet owner, knowing your puppy's breed is important for many reasons. Specif
 My approach for this project is to follow the OSEMN framework. The steps of this framework is as follow -
 
 Obtain the data
+
 Scrub the data
+
 Explore the data
+
 Model the data
+
 Interpret the data
 
 # Data Source
@@ -36,5 +40,50 @@ The following 5 models were developed and explored in this project. I used the l
 4. AlexNet convolutional neural network
 5. VGG16 convolutional neural network
 
+You can find the resulting loss and accuracy scores for each model.
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Performance%20Scores.JPG)
+
+As you can see, VGG16 has the lowest loss scores for both training and testing datasets.
 ![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Loss%20Scores.JPG)
+
+It also has the highest accuracy scores for both training and testing datasets.
 ![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Accuracy%20Scores.JPG)
+
+Thus, I am selecting the VGG16 model as my final model.
+
+# VGG16 Model
+
+My final VGG16 model has the loss score of 1.5213 and accuracy score of 55.18% for the testing data. I believe I can further improve these scores if I train my model for higher number of epochs but it would take a very long time. As you can see below, the loss scores continue to decrease and the accuracy score continue to rise as it was trained longer and longer.
+
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Final%20Model's%20Loss%20Score.JPG)
+
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Final%20Model's%20Accuracy%20Score.JPG)
+
+Although 55.18% accuracy is not significant, it is much better than the probability you will get from selecting a dog breed randomly out of 25 breeds.
+
+# Model Testing
+
+To test my final model, I will use the dog images that I found on the internet and feed them into my model. The results are as follow - 
+
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Italian%20Greyhound.jpg)
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Italian%20Greyhound%20Chart.JPG)
+
+ When I tried an image of an Italian Greyhound, my model predicted it as 46.6% Italian Greyhound. This is quite decent.
+
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Rhodesian%20Ridgeback.jpg)
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Rhodesian%20Ridgeback%20Chart.JPG)
+
+When I tried an image of a Rhodesian Ridgeback, my model predicted it as 37.2% Rhodesian Ridgeback.
+
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Shih%20Tzu.JPG)
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Shih%20Tzu%20Chart.JPG)
+
+However, when I used an image of a Shih Tzu, my model predicted 1.6% correctly although it estimated Shih Tzu as one of the top 5 breeds.
+
+# Areas for Improvements
+
+The areas that I can work on in the future to improve my model are -
+
+- Use the entire dataset of 120 breeds. More image data will enhance the predictory power of my model.
+- Preprocess the image data further. I could crop the images in order to remove the noises in the image data and only focus on the dogs.
+- Add more layers to the VGG16 model in order to see if the new layers can increase the accuracy score.
