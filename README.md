@@ -36,4 +36,5 @@ The following 5 models were developed and explored in this project. I used the l
 4. AlexNet convolutional neural network
 5. VGG16 convolutional neural network
 
-![alt text](https://github.com/kyawsawhtoon/Pump-It-Up/blob/master/Confusion%20Matrix.JPG)
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Loss%20Scores.JPG)
+![alt text](https://github.com/kyawsawhtoon/Project-Stanford-Dogs-Classification/blob/master/Accuracy%20Scores.JPG)
