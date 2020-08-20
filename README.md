@@ -2,6 +2,35 @@
 
 # Repository Files
 
+The followings are the file you can find in this repository and their descriptions.
+
+Module 4 - Final Project - Stanford Dogs Classification.ipynb - Module 4 Final Project's Jupyter Notebook
+
+Puppy Scanner - Stanford Dogs Dataset.pdf - High-level presentation of methodology and recommendations for non-technical stakeholders
+
+README.md - Descriptions of contents of the repository
+
+Perfomance Scores.JPG - Comparison of performance scores of 5 models
+
+Accuracy Scores.JPG - Comparison of accuracy scores of 5 models
+
+Loss Scores.JPG - Comparison of loss scores of 5 models
+
+Final Model's Accuracy Score.JPG - Trend line graph of accuracy score of VGG16 Model
+
+Final Model's Loss Score.JPG - Trend line graph of loss score of VGG16 Model
+
+Italian Greyhound.JPG - Image of an Italian Greyhound for testing
+
+Rhodesian Ridgeback.jpg - Image of a Rhodesian Ridgeback for testing
+
+Shih Tzu.JPG - Image of a Shih Tzu for testing
+
+Italian Greyhound Chart.JPG - Prediction chart for the Italian Greyhound
+
+Rhodesian Ridgeback Chart.jpg - Prediction chart for the Rhodesian Ridgeback
+
+Shih Tzu Chart.JPG - Prediction chart for the Shih Tzu
 
 # Project Motivation
 As a pet owner, knowing your puppy's breed is important for many reasons. Specific breeds have food limitations and predisposed health issues that you shoud be aware of. Your training methods used on your puppy would also depend on its breed since different breeds have different temperaments. Although you can utilize DNA testing to fulfill this need, such testing can be expensive. Therefore, I am constructing a convolutional neural network that takes in an image of a dog and estimates its breed.
