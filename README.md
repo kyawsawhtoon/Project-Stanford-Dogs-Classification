@@ -33,7 +33,7 @@ The followings are the file you can find in this repository and their descriptio
 **Shih Tzu Chart.JPG** - Prediction chart for the Shih Tzu
 
 # Project Motivation
-As a pet owner, knowing your puppy's breed is important for many reasons. Specific breeds have food limitations and predisposed health issues that you shoud be aware of. Your training methods used on your puppy would also depend on its breed since different breeds have different temperaments. Although you can utilize DNA testing to fulfill this need, such testing can be expensive. Therefore, I am constructing a convolutional neural network that takes in an image of a dog and estimates its breed.
+As a pet owner, knowing your puppy's breed is important for many reasons. Specific breeds have food limitations and predisposed health issues that you should be aware of. Your training methods used on your puppy would also depend on its breed since different breeds have different temperaments. Although you can utilize DNA testing to fulfill this need, such testing can be expensive. Therefore, I am constructing a convolutional neural network that takes in an image of a dog and estimates its breed.
 
 # Project Process
 My approach for this project is to follow the OSEMN framework. The steps of this framework is as follow -
