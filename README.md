@@ -52,7 +52,7 @@ Interpret the data
 In this project, I will utilize the Stanford Dogs Dataset which contains 20580 images of 120 dog breeds. Since classifying 120 breeds would be overwhelming for my GPU, I would only use 25 breeds to train my CNN.
 
 # Data Scrubbing
-Before training my model, I performed the forming data scrubbing on my images and labels -
+Before training my model, I performed the following data scrubbing on my images and labels -
 1. Resizing images
 2. Normalizing pixel intensity values
 3. One-hot-encoding of labels
